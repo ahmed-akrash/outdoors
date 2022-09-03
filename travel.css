@@ -1,0 +1,1592 @@
+@charset "utf-8";
+*
+{
+	
+}
+body
+{
+	font-family: 'Allura';
+	background-image: url(2021.jpg);
+	background-attachment: fixed;
+	background-size:100% 100%;
+}
+/*.......................start header...........................*/
+header
+{
+	width: 99%;
+	height: 600px;
+	margin: 0.5% 0.5% 0;
+	background-image: url(22.jpeg);
+	border-radius: 20px;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	position: relative;
+	
+}
+header h1:first-child
+{
+	font-family: 'Allura';
+	font-size: 40px;
+	font-weight: 100;
+	position:absolute;
+	left:2%;
+	top: -4%;
+	display: inline;
+	color:rgba(0,0,0,0.70);
+}
+header h1:first-child:hover,
+header h1:nth-child(2):hover
+{
+	color:black;
+	cursor:pointer;
+}	
+header h1:nth-child(2)
+{
+	font-family: 'Allura';
+	font-size: 40px;
+	font-weight: 100;
+	position:absolute;
+	left:90%;
+	top: -4%;
+	display:inline;
+	color:rgba(0,0,0,0.70);
+}
+.slider1,.slider2,.slider3
+{
+	width: 15px;
+	height: 15px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 50%;
+	display:inline;
+	
+}
+.slider1
+{
+	position: absolute;
+	left: 85%;
+	top:3%;
+	background-color:rgba(0,0,0,0.70);;
+
+}
+.slider2
+{
+	position: absolute;
+	left: 86.5%;
+	top:3%;
+}
+.slider3
+{
+	position: absolute;
+	left: 88%;
+	top:3%;
+}
+.slider1:hover,.slider2:hover,.slider3:hover
+{
+	background-color: black;
+	cursor:pointer;
+	
+}
+
+/*.......................start nav...........................*/
+
+nav
+{
+	position: fixed;
+	left: 3%;
+	top:30%;
+	z-index:2;
+	
+}
+nav a
+{
+	font-family: 'Allura';
+	font-size: 22px;
+	font-weight: bold;
+	display: inline;
+	color:rgba(0,0,0,0.70);
+	text-decoration:none;
+}
+nav a:hover:before
+{
+	content:"ـــ ";
+	color:black;
+	
+}
+nav a:hover
+{
+	color:black;
+	
+}
+
+/*.......................end nav...........................*/
+
+
+/*.......................start article...........................*/
+
+header article .word1:hover,
+header article .word2:hover,
+header article .word3:hover
+{
+	color:black;
+	cursor:pointer;
+}
+ header article .lineTL
+{
+	width: 190px;
+	color:orange;
+	position: absolute;
+	left: 36%;
+	top:30%;
+	transform: rotate(47deg);
+}
+header article .lineTR
+{
+	width: 95px;
+	color:orange;
+	position: absolute;
+	left: 63.5%;
+	top:46.7%;
+	transform: rotate(-47deg);
+}
+header article .lineBL
+{
+	width: 140px;
+	color:orange;
+	position: absolute;
+	left: 51.5%;
+	top:64.2%;
+	transform: rotate(47deg);
+}
+header article .lineBR
+{
+	width: 131px;
+	color:orange;
+	position: absolute;
+	left: 53%;
+	top:68.3%;
+	transform: rotate(-47deg);
+}
+
+
+header article .word1
+{
+	font-family: 'Allura';
+	font-size: 70px;
+	font-weight: 100;
+	color:rgba(0,0,0,0.70);
+	display: inline;
+	position: absolute;
+	left: 46%;
+	top:30%;
+}
+header article .word2
+{
+	font-family: 'Allura';
+	font-size: 20px;
+	font-weight: 100;
+	color:rgba(0,0,0,0.70);
+	display: inline;
+	position: absolute;
+	left: 51.5%;
+	top:49.2%;
+}
+header article .word3
+{
+	font-family: 'Allura';
+	font-size: 70px;
+	font-weight: 100;
+	color:rgba(0,0,0,0.70);
+	display: inline;
+	position: absolute;
+	left: 55%;
+	top:40%;
+}
+
+
+
+
+/*.......................end article...........................*/
+
+
+/*.......................end header..............................*/
+
+
+
+
+
+/*....................................................................................................................................*/
+
+
+
+
+
+
+
+
+/*.......................start home...........................*/
+.home
+{
+	width: 99%;
+	height: 1200px;
+	margin: 0.5% 0.5% 0;
+	border-radius: 20px;
+	background-color:rgba(246,114,128,0.60);
+	background-attachment: fixed;
+	background-size:100% 100%;
+	position: relative;
+	
+	
+}
+.home div:first-child
+{
+	width: 99%;
+	height: 130px;
+}
+.home .first_div
+{
+	width: 70px;
+	height: 70px;
+	background-color: transparent;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 47%;
+	top: 2%;
+	transform: rotate(45deg);
+	border-radius: 15px;
+	transition: all 1s ease-in-out;
+	z-index: 2;
+}
+.home .first_word
+{
+	font-size: 28px;
+	color:rgba(0,0,0,0.70);	
+	position: absolute;
+	left: 47.6%;
+	top: 2%;
+}
+.home .first_div:hover
+{
+	border-color: powderblue;
+	transform: rotate(135deg);
+	box-shadow: 	2px 2px 0px 1px black,
+					-2px -2px 0px 1px black,
+					-2px 2px 0px 1px black,
+					2px -2px 0px 1px black;
+	cursor:pointer;
+}
+.home .left
+{
+	width: 50%;
+	height:750px;
+	border-radius:0% 50% 20% 0%;
+	background-color:rgba(192,108,132,0.60);
+	position: absolute;
+	top: 49%;
+	
+}.home .right
+{
+	width: 49.9%;
+	height:750px;
+	border-radius:50% 0%  0% 20%;
+	background-color:rgba(192,108,132,0.60);
+	position: absolute;
+	left: 50.05%;
+	top: 49%;
+	
+}
+.home .pic1,.home .pic2,.home .pic3,.home .pic4
+{ 	
+	width: 22%;
+	height: 280px;
+	margin: 1%;
+	border: 1px solid rgba(0,0,0,0.70);
+	border-radius: 20px;
+	background-image: url(47.jpg);
+	display: inline-block;
+	transition: all 0.8s ease-in-out;
+	
+	
+}
+
+.home .pic1:hover,.home .pic2:hover,.home .pic3:hover,.home .pic4:hover
+{
+	box-shadow: 	2px 2px 0px 0.2px black,
+					-2px -2px 0px 0.2px black,
+					-2px 2px 0px 0.2px black,
+					2px -2px 0px 0.2px black;
+	cursor:pointer;
+	border-radius: 15%;
+	
+}
+
+.home .pic1
+{
+	background-image: url(6.jpg);
+	background-size: 100% 100%;
+}.home .pic2
+{
+	background-image: url(2025.jpg);
+	background-size: 100% 100%;
+}.home .pic3
+{
+	background-image: url(4.jpg);
+	background-size: 100% 100%;
+}.home .pic4
+{
+	background-image: url(20222.jpg);
+	background-size: 100% 100%;
+}
+.home h1
+{
+	display: inline;
+	color:rgba(0,0,0,0.70);
+}
+.home .word1
+{
+	position: absolute;
+	left: 9%;
+	top:35%;
+	
+}
+.home .word2
+{
+	position: absolute;
+	left: 34%;
+	top:35%;
+}
+.home .word3
+{
+	position: absolute;
+	left: 58%;
+	top:35%;
+}
+.home .word4
+{
+	position: absolute;
+	left: 82%;
+	top:35%;
+}
+.home .word1:hover,.home .word2:hover,.home .word3:hover,.home .word4:hover
+{
+	color: black;
+	cursor: pointer;
+
+}
+
+
+
+
+/*.......................end home...........................*/
+
+
+
+
+
+/*....................................................................................................................................*/
+
+
+
+
+
+/*.......................start about...........................*/
+
+.about
+{
+	width:100%;
+	height: 1100px;
+	position: relative;
+	background-color:rgba(192,108,132,0.60);
+	
+}
+.about .word1
+{
+	font-size: 50px;
+	color: rgba(0,0,0,0.70);
+	position: absolute;
+	left: 42.9%;
+	top:-0.5%;
+}
+.about .line1
+{
+	width: 60px;
+	color: rgba(0,0,0,0.70);
+	position: absolute;
+	left: 44.5%;
+	top:0.5%;
+}
+.about .line2
+{
+	width: 60px;
+	color: rgba(0,0,0,0.70);
+	position: absolute;
+	left: 51%;
+	top:0.5%;
+}
+.about .ball
+{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.70);
+	position: absolute;
+	left: 49.5%;
+	top:0.5%;
+}
+.about .ball1
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border:1px solid rgba(0,0,0,0.70);
+	background-color: white;
+	position: absolute;
+	left: 44.5%;
+	top:1%;
+}
+.about .ball2
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border:1px solid rgba(0,0,0,0.70);
+	background-color: white;
+	position: absolute;
+	left: 55.6%;
+	top:1%;
+}
+.about .info
+{
+	width: 200px;
+	height: 200px;
+	font-size: 24px;
+	border-radius: 20px;
+	
+	position: absolute;
+	left: 44.2%;
+	top:9%;
+}
+.about .word2
+{
+	font-size: 50px;
+	color: rgba(0,0,0,0.70);
+	position: absolute;
+	left: 45%;
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.70);
+	top:22%;
+}
+.about .line3
+{
+	width: 450px;
+	color: rgba(0,0,0,0.70);
+	transform: rotate(-30deg);
+	position: absolute;
+	left: 14%;
+	top:41%;
+}
+.about .line4
+{
+	width: 450px;
+	color: rgba(0,0,0,0.70);
+	transform: rotate(30deg);
+	position: absolute;
+	left: 52.5%;
+	top:41%;
+}
+.about .line5
+{
+	width: 350px;
+	color:rgba(0,0,0,0.70);
+	transform: rotate(70deg);
+	position: absolute;
+	left: 44%;
+	top:47%;
+}
+.about .line6
+{
+	width: 350px;
+	color: rgba(0,0,0,0.70);
+	transform: rotate(-70deg);
+	position: absolute;
+	left: 30%;
+	top:47%;
+}
+.about .benfit1
+{	width: 20%;
+	height: 240px;
+	font-size: 24px;
+	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 4.7%;
+	top:58%;
+}
+
+	.about .benfit2
+{	width: 20%;
+	height: 240px;
+	font-size: 24px;
+	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 28%;	
+	top:70%;
+
+
+}
+	.about .benfit3
+{	width: 20%;
+	height: 240px;
+	font-size: 24px;
+	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 53%;
+	top:70%;
+
+}
+	.about .benfit4
+{	width: 20%;
+	height: 240px;
+	font-size: 24px;
+	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 76%;
+	top:58%;
+
+}
+.about .ball_ben1
+{	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.70);
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	left: 12.5%;
+	top:52%;
+
+}
+.about .ball_ben2
+{	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.70);
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	left: 83.5%;
+	top:52%;
+
+}
+.about .ball_ben3
+{	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.70);
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	left: 36.5%;
+	top:64%;
+
+}
+.about .ball_ben4
+{	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.70);
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	left: 60.5%;
+	top:64%;
+
+}
+.about .word1:hover,.about .word2:hover,.about .benfit1:hover,.about .benfit2:hover,.about .benfit3:hover,.about .benfit4:hover,.about .info:hover
+{
+	color: black;
+	cursor: pointer;
+}
+
+
+
+
+
+/*.......................end about...........................*/
+
+
+
+
+
+/*....................................................................................................................................*/
+
+
+
+
+
+
+/*.......................start services...........................*/
+
+.services
+{
+	width: 99%;
+	height: 600px;
+	margin: 0.5% 0.5% 0;
+	border-radius: 20px;
+	background-color:rgba(108,91,123,0.6);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+	
+}
+.services .first_word
+{
+	font-size: 80px;
+	color:rgba(0,0,0,0.70);	
+	position: absolute;
+	left: 42%;
+	top: -7%;
+}
+.services .first_word:hover
+{
+	color: black;
+	cursor:pointer;
+}
+
+.services .see_more
+{
+	font-family: 'Allura';
+	width: 100px;
+	height: 40px;
+	font-size: 30px;
+	color:rgba(0,0,0,0.70);
+	background-color: transparent;
+	position: absolute;
+	left: 46%;
+	top: 80%;
+	border-radius: 20px;
+	transition: all 1s ease-in-out;
+	
+}
+.services button:hover
+{
+	border-color: powderblue;
+	
+	box-shadow: 	2px 2px 0px 1px powderblue,
+					-2px -2px 0px 1px powderblue,
+					-2px 2px 0px 1px powderblue,
+					2px -2px 0px 1px powderblue;
+	cursor:pointer;
+	
+}
+.services .line
+{
+	width: 350px;
+	transform: rotate(90deg);
+	position: absolute;
+	left: 36%;
+	top:47%;
+}
+.services .ball1
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: black;
+	left: 48.8%;
+	top:30%;
+}
+.services .ball2
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: white;
+	left: 48.8%;
+	top:35%;
+}
+.services .ball3
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: black;
+	left: 48.8%;
+	top:40%;
+}
+.services .ball4
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: white;
+	left: 48.8%;
+	top:45%;
+}
+.services .ball5
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: black;
+	left: 48.8%;
+	top:50%;
+}
+.services .ball6
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: white;
+	left: 48.8%;
+	top:55%;
+}
+.services .ball7
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: black;
+	left: 48.8%;
+	top:60%;
+}
+.services .ball8
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	background-color: white;
+	left: 48.8%;
+	top:65%;
+}
+
+
+.services .word1
+{
+	color:rgba(0,0,0,0.70);
+	font-size: 20px;
+	position: absolute;
+	left: 30%;
+	top:23%;
+	
+}
+.services .word2
+{
+	color:rgba(0,0,0,0.70);
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top:28%;
+	
+}
+.services .word3
+{
+	color:rgba(0,0,0,0.70);
+	font-size: 20px;
+	position: absolute;
+	left: 30%;
+	top:33%;
+	
+}
+.services .word4
+{
+	color: rgba(0,0,0,0.70);	
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top:38%;
+	
+}
+.services .word5
+{
+	color: rgba(0,0,0,0.70);	
+	font-size: 20px;
+	position: absolute;
+	left: 30%;
+	top:43%;
+	
+}
+.services .word6
+{
+	color: rgba(0,0,0,0.70);	
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top:48%;
+	
+}
+.services .word7
+{
+	color:rgba(0,0,0,0.70);	
+	font-size: 20px;
+	position: absolute;
+	left: 30%;
+	top:53%;
+	
+}
+.services .word8
+{
+	color: rgba(0,0,0,0.70);	
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top:58%;
+	
+}
+.services a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,0.70);
+}
+.services a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
+
+
+
+
+/*.......................end services...........................*/
+
+
+
+
+
+
+/*....................................................................................................................................*/
+
+
+
+
+
+
+
+/*.......................start social...........................*/
+
+.social
+{
+	width: 99%;
+	height: 600px;
+	border-radius: 20px;
+	margin: 0.5% 0.5% 0;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-color:rgba(53,92,125,0.60);
+	position: relative;
+}
+.social .social_start
+{
+	width: 90px;
+	height: 70px;
+	background-color: transparent;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 46.2%;
+	top:8%;
+	
+	border-radius: 15px;
+	transition: all 1s ease-in-out;
+}
+.social .social_start:hover
+{
+	transform:scale(1.3);
+	border: 1px solid black;
+	box-shadow: 0px 0px 0px 3px black;
+	border-style: inset;
+	
+	cursor:pointer;
+}
+
+.social .social_word
+{
+	font-size: 30px;
+	color:rgba(0,0,0,0.70);	
+	position: absolute;
+	left: 47.2%;
+	top: 7%;
+	
+}
+.social .social_word:hover
+{
+	color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+
+.social .FB,.social .TW,.social .PIN,.social .INS,.social .YOUT
+{
+	width: 130px;
+	height: 130px;
+	border: 5px solid black;
+	border-radius:50%;
+	display: inline-block;
+	background-color: transparent;
+}
+.social .FB
+{
+	position:absolute;
+	left:15%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-style:inset;
+	transform: rotate(-45deg);
+	top:40%;
+}
+.social .TW
+{
+	position:absolute;
+	left:30%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-style:inset;
+	transform: rotate(-45deg);
+	top:40%;
+}
+.social .PIN
+{
+	position:absolute;
+	left:45%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-bottom:5px;
+	border-bottom-color:transparent;
+	border-style:inset;
+	transform: rotate(-45deg);
+	top:40%;
+}
+.social .INS
+{
+	position:absolute;
+	left:60%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-style:inset;
+	transform: rotate(-45deg);
+	top:40%;
+}
+.social .YOUT
+{
+	position:absolute;
+	left:75%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-bottom:5px;
+	border-bottom-color:transparent;
+	border-left:5px;
+	border-left-color:transparent;
+	transform: rotate(-45deg);
+	border-style:inset;
+	top:40%;
+}
+
+
+
+
+
+
+
+.social .FB2,.social .TW2,.social .PIN2,.social .INS2,.social .YOUT2
+{
+	width: 130px;
+	height: 130px;
+	border: 5px solid rgba(0,0,0,0.7);
+	border-radius:50%;
+	display: inline-block;
+	background-color: transparent;
+	transition: all 0.5s ease-in-out;
+}
+.social .FB2
+{
+	position:absolute;
+	left:15%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-style:inset;
+	transform: rotate(-45deg);
+	top:40%;
+	transition: all 0.5s ease-in-out;
+}
+.social .TW2
+{
+	position:absolute;
+	left:30%;
+	border-right:5px 2px;
+	border-right-color:transparent;
+	border-style:inset;
+	transform: rotate(-80deg);
+	top:40%;
+	transition: all 0.5s ease-in-out;
+}
+.social .PIN2
+{
+	position:absolute;
+	left:45%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-bottom:5px;
+	border-bottom-color:transparent;
+	border-style:inset;
+	transform: rotate(-90deg);
+	top:40%;
+	transition: all 0.5s ease-in-out;
+}
+.social .INS2
+{
+	position:absolute;
+	left:60%;
+	border-right:5px 2px;
+	border-right-color:transparent;
+	border-style:inset;
+	transform: rotate(-110deg);
+	top:40%;
+	transition: all 0.5s ease-in-out;
+}
+.social .YOUT2
+{
+	position:absolute;
+	left:75%;
+	border-right:5px;
+	border-right-color:transparent;
+	border-bottom:5px;
+	border-bottom-color:transparent;
+	border-left:5px;
+	border-left-color:transparent;
+	transform: rotate(-80deg);
+	border-style:inset;
+	top:40%;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+.social .FB2:hover
+{
+	transform: rotate(315deg);
+	cursor: pointer;
+	border-color: white;
+}
+.social .TW2:hover
+{
+	transform: rotate(280deg);
+	cursor: pointer;
+	border-color: white;
+}
+.social .PIN2:hover
+{
+	transform: rotate(270deg);
+	cursor: pointer;
+	border-color: white;
+}
+.social .INS2:hover
+{
+	transform: rotate(250deg);
+	cursor: pointer;
+	border-color: white;
+}
+
+.social .YOUT2:hover
+{
+	transform: rotate(280deg);
+	cursor: pointer;
+	border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social h1,.social h1 a
+{
+	display: inline;
+	color:rgba(0,0,0,0.7);
+	font-size: 60px;
+	text-decoration:none; 
+	
+}
+.social .logo1 a
+{
+	position: absolute;
+	left: 19%;
+	top:46.5%;
+	transition: all 0.5s ease-in-out;
+	
+}
+.social .logo2 a
+{
+	position: absolute;
+	left: 33.5%;
+	top:46.5%;
+	transition: all 0.5s ease-in-out;
+}
+.social .logo3 a
+{
+	position: absolute;
+	left: 49%;
+	top:46.5%;
+	transition: all 0.5s ease-in-out;
+}
+.social .logo4 a
+{
+	position: absolute;
+	left: 63.5%;
+	top:46.5%;
+	transition: all 0.5s ease-in-out;
+}
+.social .logo5 a
+{
+	position: absolute;
+	left: 78%;
+	top:46.5%;
+	transition: all 0.5s ease-in-out;
+}
+.social .logo1 a:hover,.social .logo2 a:hover,.social .logo3 a:hover,.social .logo4 a:hover,.social .logo5 a:hover
+{
+	color:black;
+	cursor: pointer;
+	text-shadow: 5px 5px 5px black;
+	
+}
+
+
+.social .word1 a,.social .word2 a,.social .word3 a,.social .word4 a,.social .word5 a
+
+{
+	font-size: 24px;
+	
+}
+.social .word1 a
+{
+	position: absolute;
+	left: 17%;
+	top:64.5%;
+	
+}
+.social .word2 a
+{
+	position: absolute;
+	left: 33%;
+	top:64.5%;
+}
+.social .word3 a
+{
+	position: absolute;
+	left: 47%;
+	top:64.5%;
+}
+.social .word4 a
+{
+	position: absolute;
+	left: 62%;
+	top:64.5%;
+}
+.social .word5 a
+{
+	position: absolute;
+	left: 78%;
+	top:64.5%;
+}
+.social .word1 a:hover,.social .word2 a:hover,.social .word3 a:hover,.social .word4 a:hover,.social .word5 a:hover
+{
+	color:black;
+	cursor: pointer;
+	text-shadow: 5px 5px 5px gray;
+}
+
+
+
+
+
+
+
+
+
+/*.......................end social...........................*/
+
+
+
+
+
+/*....................................................................................................................................*/
+
+
+
+
+
+
+/*.......................end team...........................*/
+
+.team
+{
+	width: 99%;
+	height: 700px;
+	margin: 0.5% 0.5% 0;
+	border-radius: 20px;
+	background-color:rgba(17,60,74,0.60) ;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	position: relative;
+	
+	
+}
+
+
+
+.team .team_start
+{
+	width: 110px;
+	height: 80px;
+	background-color: transparent;
+	border: 1px solid rgba(0,0,0,0.70);
+	position: absolute;
+	left: 44.2%;
+	top:3%;
+	
+	border-radius: 50%;
+	transition: all 1s ease-in-out;
+}
+.team .team_start:hover
+{
+	transform:scale(1.3) rotatex(180deg);
+	border: 1px solid black;
+	box-shadow: 0px 0px 0px 1px black;
+	cursor:pointer;
+}
+
+.team .team_word
+{
+	font-size: 30px;
+	color:rgba(0,0,0,0.70);	
+	position: absolute;
+	left: 45%;
+	top: 2.5%;
+	
+}
+.team .team_word:hover
+{
+	color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+
+
+.team .pic1,.team .pic2,.team .pic3,.team .pic4
+{ 	
+	width: 22%;
+	height: 70%;
+	margin: 1%;
+	border: 1px solid rgba(0,0,0,0.70);
+	border-radius: 20px;
+	background-image: url(47.jpg);
+	display: inline-block;
+	transition: all 0.9s ease-in-out;
+	
+	
+}
+
+.team .pic1:hover,.team .pic2:hover,.team .pic3:hover,.team .pic4:hover
+{
+	box-shadow: 	2px 2px 0px 1px black,
+					-2px -2px 0px 1px black,
+					-2px 2px 0px 1px black,
+					2px -2px 0px 1px black;
+	cursor:pointer;
+	border-radius: 15%;
+	
+}
+
+.team .pic1
+{
+	background-image: url(97.jpg);
+	background-size: 100% 100%;
+}.team .pic2
+{
+	background-image: url(94.jpg);
+	background-size: 100% 100%;
+}.team .pic3
+{
+	background-image: url(86.jpg);
+	background-size: 100% 100%;
+}.team .pic4
+{
+	background-image: url(84.jpg);
+	background-size: 100% 100%;
+}
+
+.team .word1
+{
+	font-size:30px;
+	color:rgba(0,0,0,0.70);
+	position: absolute;
+	left: 4%;
+}.team .word2
+{
+	font-size: 30px;
+	color:rgba(0,0,0,0.70);
+	position: absolute;
+	left:29%;
+}.team .word3
+{
+	font-size: 30px;
+	color:rgba(0,0,0,0.70);
+	position: absolute;
+	left: 53%;
+}.team .word4
+{
+	font-size: 30px;
+	color:rgba(0,0,0,0.70);
+	position: absolute;
+	left: 80%;
+}
+
+.team .word1:hover,.team .word2:hover,.team .word3:hover,.team .word4:hover
+{
+	color:black;
+	cursor: pointer;
+}
+
+
+/*.......................end team...........................*/
+
+
+
+
+
+/*....................................................................................................................................*/
+
+
+
+
+/*.......................start contact...........................*/
+
+.contact
+{
+	width: 99%;
+	height: 600px;
+	background-color:rgba(74,44,44,0.60);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	margin: 0.5% 0.5% 0;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.contact .right
+{
+	width: 60%;
+	height: 100%;
+	float: right;
+	background-color: transparent;
+}
+.contact .right input,textarea
+{
+	width: 50%;
+	color: white;
+	font-size: 24px;
+	font-family: 'Allura';
+	background-color: transparent;
+	border-bottom: 1px solid white;
+	border-top: 0px solid ;
+	border-right: 0px solid white;
+	border-left: 0px solid white;
+	border-radius: 3px;
+	margin: 5% ;
+	
+}
+.contact .right input:hover,textarea:hover
+{
+	border-bottom: 1px solid darkslateblue;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	
+	
+}
+.contact .right textarea
+{
+	height: 40%;
+}
+.contact .right input[type="submit"]
+{
+	width: 10%;
+	font-size: 30px;
+	border: 1px solid white;
+	border-radius:20px;
+	position: relative;
+	left:40%;
+	margin-bottom: 0;
+	margin-right: 0;
+	transition: all 1s ease-in-out; 
+}
+.contact .right input[type="submit"]:hover
+{
+	background-color: darkslateblue;
+	transform:  rotatex(360deg) scale(1.2);
+}
+
+.contact .right h1
+{
+
+	font-family: 'Allura';
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    left: 81%;
+    top: 93%;
+    display: inline;
+    color: white;
+	
+}
+
+
+
+.contact .left
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+
+	
+}
+
+
+
+.contact .left h1:first-of-type
+{
+
+	font-family: 'Allura';
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    display: inline;
+    color: white;
+	
+}
+.contact .left h1:nth-of-type(2)
+{
+
+	font-family: 'Allura';
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    display: inline;
+    color: darkslateblue;
+	
+}
+.contact .left h1:last-of-type
+{
+
+	font-family: 'Allura';
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    display: inline;
+    color: white;
+	
+}
+.contact .left .info
+{
+	position: absolute;
+    left: 40%;
+    top: 50%;
+	color:white;
+	font-size: 24px;
+	
+}
+.contact .left div:first-of-type
+{
+	
+	font-size: 55px;
+	width: 15%;
+	height: 10%;
+	background-color: darkslateblue	;
+	margin: 1%;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	transition: all 1s ease-in-out;
+}
+.contact .left div:first-of-type:hover
+{
+	transform: rotateX(360deg) scale(1.1);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.......................end contact...........................*/
+
+
+/*....................................................................................................................................*/
